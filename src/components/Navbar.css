@@ -1,0 +1,14 @@
+.head{
+    display:flex ;
+    gap: 4%;
+    position: sticky;
+    padding: 1.4rem;
+}
+.head > *:hover {
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  .header {
+    background-color: var(--background-color);
+    padding: 20px 0;
+  }

@@ -2,26 +2,117 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global Styles */
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --primary-color: #007bff; /* Define your primary color here */
+    --secondary-color: #6c757d; /* Define your secondary color here */
+    --text-color: #333; /* Define your text color here */
+    --background-color: #f8f9fa; /* Define your background color here */
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  
+  /* Reset Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Typography */
+  body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+  
+  p {
+    margin-bottom: 0.8rem;
+  }
+  
+  /* Links */
+  a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: var(--background-color);
+    padding: 20px 0;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--background-color);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Example Usage */
+  h1 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    color: var(--primary-color);
+  }
+  
+  .button-primary {
+    background-color: var(--primary-color);
+  }
+  
+  .button-secondary {
+    background-color: var(--secondary-color);
+  }
+  

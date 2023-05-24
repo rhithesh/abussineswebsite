@@ -1,0 +1,32 @@
+.foot{
+    display: flex;
+    gap: 4%;
+    align-items: flex-start;
+    justify-content:center ;
+    background-color:rgb(238, 177, 103) ;
+
+}
+
+.elements{
+    flex-basis:25%;
+    
+}
+
+.elements>*{
+
+    padding-bottom: 1rem;
+}
+p{
+    word-wrap: break-word;
+}
+.socials{
+    display:flex;
+    padding-left: 110px;
+    gap:7%;
+}
+
+.footer {
+    background-color: var(--background-color);
+    padding: 20px 0;
+    text-align: start;
+  }
