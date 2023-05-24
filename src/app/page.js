@@ -34,9 +34,14 @@ export default function Home() {
       </div>
      
 
-     <div className='flex m-20'>
+     <div className='flex m-20 gap-3'>
+
+
 
      <Headcard title={"Web development"} content={["Cutting-Edge Technologies","Seamless User Experience","Responsive and Mobile-First Design", "easily configurable"]}/>
+     <Headcard title={"Skilled resources"} content={["Resource agumentation","Quick team formation","Hand-Picked resources", "Expertise consultancy", "commited Delivery managers"]}/>
+     <Headcard title={"Q & A testing"} content={["Manual testing","Test Automation","mobile testing", "expertised planning", "API testing"]}/>
+     <Headcard title={"Robotic process automation"} content={["RPA Consulting & POC","Custom automation","Business Process Automation", "Expertise consultancy", "Quick solutions"]}/>
 
 
 
